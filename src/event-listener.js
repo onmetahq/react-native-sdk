@@ -19,5 +19,3 @@ export const eventListener = async ({ channelName, cb }) => {
         await pusher.unsubscribe({ channelName });
     };
 };
-
-export { eventListener };

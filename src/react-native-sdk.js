@@ -3,7 +3,7 @@ import { WebView } from "react-native-webview";
 import { generateUrl } from "./generate-url";
 import { eventListener } from "./event-listener";
 
-function ReactNativeSdk({ queryParams, onEventHandler, ...webviewProps }) {
+function MetaWidget({ queryParams, onEventHandler, ...webviewProps }) {
     const config = { ...queryParams };
     const channelId = `${new Date().valueOf()}-${Math.round(
         Math.random() * 100000000
@@ -39,9 +39,8 @@ function ReactNativeSdk({ queryParams, onEventHandler, ...webviewProps }) {
             originWhitelist={["*"]}
             source={{ uri: onmetaUrl }}
             allowsInlineMediaPlayback={false}
-            onNavigationStateChange={onNavigationStateChange}
         />
     );
 }
 
-export { ReactNativeSdk };
+export { MetaWidget };
