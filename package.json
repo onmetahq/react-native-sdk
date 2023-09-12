@@ -1,0 +1,32 @@
+{
+  "name": "react-native-sdk",
+  "version": "1.0.0",
+  "description": "React native sdk to integrate onmeta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onmetahq/react-native-sdk.git"
+  },
+  "keywords": [
+    "react-native-sdk"
+  ],
+  "author": "Onmeta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onmetahq/react-native-sdk/issues"
+  },
+  "homepage": "https://onmeta.in/",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-native": "*",
+    "react-native-inappbrowser-reborn": "^3.6.3",
+    "react-native-webview": "*"
+  },
+  "dependencies": {
+    "@pusher/pusher-websocket-react-native": "^1.2.2",
+    "query-string": "^8.1.0"
+  }
+}
