@@ -1,5 +1,5 @@
 {
-  "name": "react-native-sdk",
+  "name": "@onmeta/react-native-sdk",
   "version": "1.0.0",
   "description": "React native sdk to integrate onmeta",
   "main": "index.js",
@@ -28,5 +28,6 @@
   "dependencies": {
     "@pusher/pusher-websocket-react-native": "^1.2.2",
     "query-string": "^8.1.0"
-  }
+  },
+  "devDependencies": {}
 }
