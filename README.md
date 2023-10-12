@@ -2,13 +2,13 @@
 
 ## Installation
 
-Install via Yarn: yarn add @onmeta/react-native-sdk
+Install via Yarn:``` yarn add @onmeta/react-native-sdk```
 
-Install via npm: npm i @onmeta/react-native-sdk
+Install via npm:```  npm install @onmeta/react-native-sdk ```
 
 ## peer dependencies
 
-npm i @pusher/pusher-websocket-react-native@^1.2.2
+ ``` npm install @pusher/pusher-websocket-react-native@^1.2.2 ```
 
 ## Quick Start
 
