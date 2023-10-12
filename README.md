@@ -15,22 +15,18 @@ npm i @pusher/pusher-websocket-react-native@^1.2.2
 ```javascript
 import MetaWidget from "@onmeta/react-native-sdk";
 
-
-
-
-  const eventHandler = async (event, data) => {
-
-    switch (event) {
-      // example to open the upi apps
-      case 'upi-intent': {
-        const Linkdata = await JSON.parse(data);
-        void Linking.openURL(Linkdata.link);
-      }
-      default: {
-// Default code 
-      }
+const eventHandler = async (event, data) => {
+  switch (event) {
+    // example to open the upi apps
+    case "upi-intent": {
+      const Linkdata = await JSON.parse(data);
+      void Linking.openURL(Linkdata.link);
     }
-  };
+    default: {
+      // Default code
+    }
+  }
+};
 
 <MetaWidget
   queryParams={{
